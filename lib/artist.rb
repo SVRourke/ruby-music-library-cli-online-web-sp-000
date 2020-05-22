@@ -35,6 +35,7 @@ class Artist
 
   def genres
     @songs.map {|song| song.genre}.uniq
+    binding.pry
   end
 
 end
