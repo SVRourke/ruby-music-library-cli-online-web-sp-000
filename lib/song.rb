@@ -44,5 +44,6 @@ class Song
 
     if genre.songs.include?(self) == false
       genre.songs << self
+    end
   end
 end
