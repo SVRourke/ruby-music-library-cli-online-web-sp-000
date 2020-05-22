@@ -26,4 +26,8 @@ class Genre
     ng
   end
 
+  def songs
+    @songs
+  end
+
 end
