@@ -8,7 +8,6 @@ class Song
     if artist != nil
       self.artist= artist
     end
-    # @artist = artist
 
   end
 
