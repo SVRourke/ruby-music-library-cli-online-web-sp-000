@@ -1,6 +1,4 @@
-require 'pry'
-require_relative "./genre.rb"
-require_relative "./song.rb"
+
 class Artist
   attr_accessor :name, :songs
 
@@ -47,17 +45,3 @@ class Artist
   end
 end
 
-# a = Artist.new("Artist A")
-# b = Artist.new("Artist b")
-#
-# grunge = Genre.new("Genre A")
-# rock = Genre.new("Genre B")
-#
-# c = Song.new("SONG 1", a, grunge)
-# d = Song.new("SONG 2", a, rock)
-
-
-
-# expect(artist.genres).to include(genre)
-# expect(artist.genres).to include(other_genre)
-# expect(artist.genres.size).to be(2)
