@@ -6,6 +6,7 @@ class MusicImporter
   end
 
   def files
+    Dir[@path].select {|e| File.file?(e)}
     # returns filenames
   end
 
