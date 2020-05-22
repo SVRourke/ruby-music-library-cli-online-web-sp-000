@@ -3,8 +3,8 @@ Bundler.require
 
 module Concerns
   module Findable
-    def self.find_by_name(name)
-      all.find {|item| item.name == name}
+    def find_by_name(name)
+      self.all.find {|item| item.name == name}
     end
   end
 end
