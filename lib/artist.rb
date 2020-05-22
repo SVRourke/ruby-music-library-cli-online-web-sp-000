@@ -1,6 +1,6 @@
 
 class Artist
-  extends Concers::Findable
+  extends Concerns::Findable
   attr_accessor :name, :songs
 
   @@all = Array.new
