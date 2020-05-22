@@ -34,6 +34,8 @@ class Artist
       song.artist=(self)
       @songs << song
       puts "song added #{@songs}"
+    else
+      @songs << song
     end
   end
 
