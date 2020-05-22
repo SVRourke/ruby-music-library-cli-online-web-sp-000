@@ -1,6 +1,6 @@
 class Song
   attr_accessor :name, :artist
-  # attr_reader 
+  # attr_reader
   @@all = Array.new
 
   def initialize(name, artist=nil)
