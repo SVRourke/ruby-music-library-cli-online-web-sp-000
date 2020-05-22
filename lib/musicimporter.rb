@@ -1,3 +1,4 @@
+require 'pry'
 class MusicImporter
   attr_reader :path
 
@@ -6,8 +7,9 @@ class MusicImporter
   end
 
   def files
-    Dir[@path].select {|e| File.file?(e)}
+    a = Dir[@path].select {|e| File.file?(e)}
     # returns filenames
+    binding.pry
   end
 
   def import
