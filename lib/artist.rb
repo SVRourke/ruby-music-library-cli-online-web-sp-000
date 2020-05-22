@@ -47,6 +47,6 @@ Song.new("SONG 1", a, grunge)
 Song.new("SONG 2", b, rock)
 puts a.genres
 
-expect(artist.genres).to include(genre)
-expect(artist.genres).to include(other_genre)
-expect(artist.genres.size).to be(2)
+# expect(artist.genres).to include(genre)
+# expect(artist.genres).to include(other_genre)
+# expect(artist.genres.size).to be(2)
