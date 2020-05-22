@@ -6,6 +6,10 @@ class MusicImporter
   end
 
   def files
-    # load files in path
+    # returns filenames
+  end
+
+  def import
+    # creates a new song instance for each files
   end
 end
