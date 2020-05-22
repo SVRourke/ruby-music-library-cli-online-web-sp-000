@@ -8,10 +8,8 @@ class Song
     if artist != nil
       self.artist= artist
     end
-    # @genre = genre
-
     if genre != nil
-      self.genre = genre
+      self.genre= genre
     end
 
   end
