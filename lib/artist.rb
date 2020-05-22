@@ -1,5 +1,6 @@
 require 'pry'
 require_relative "./genre.rb"
+require_relative "./song.rb"
 class Artist
   attr_accessor :name, :songs
 
