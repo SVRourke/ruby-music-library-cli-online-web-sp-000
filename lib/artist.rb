@@ -38,8 +38,8 @@ class Artist
 
   def genres
     gs = @songs.map {|song| song.genre}
-    puts gs
   end
+  
   def sub
     puts @songs
   end
@@ -54,7 +54,7 @@ rock = Genre.new("Genre B")
 c = Song.new("SONG 1", a, grunge)
 d = Song.new("SONG 2", a, rock)
 
-puts a.sub
+
 
 # expect(artist.genres).to include(genre)
 # expect(artist.genres).to include(other_genre)
