@@ -3,7 +3,7 @@ class Song
   # attr_reader
   @@all = Array.new
 
-  def initialize(name, artist=nil)
+  def initialize(name, artist=nil, genre=nil)
     @name = name
     if artist != nil
       self.artist= artist
