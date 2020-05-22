@@ -1,6 +1,6 @@
 class Song
   attr_accessor :name
-  attr_reader :genre
+  attr_reader :artist, :genre
   # attr_reader
   @@all = Array.new
 
@@ -8,7 +8,7 @@ class Song
     @name = name
     if artist != nil
       puts "has artist"
-      self.artist= artist
+      self.artist = artist
     end
     if genre != nil
       self.genre = genre
