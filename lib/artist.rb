@@ -34,7 +34,7 @@ class Artist
   end
 
   def genres
-    @songs.collect do |song|
+    @songs.map do |song|
       song.genre
     end
   end
