@@ -4,8 +4,8 @@ class Song
   @@all = Array.new
 
   def initialize(name, artist=nil)
-    @name = name
     self.artist= artist
+    @name = name
   end
 
   def self.all
