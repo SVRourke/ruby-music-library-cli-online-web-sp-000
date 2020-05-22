@@ -7,7 +7,7 @@ class MusicImporter
   end
 
   def files
-    a = Dir[@path].select {|e| File.file?(e)}
+    a = Dir.glob("#{@path}/*")
     # returns filenames
     binding.pry
   end
