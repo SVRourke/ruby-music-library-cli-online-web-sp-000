@@ -33,6 +33,7 @@ class Artist
     if song.artist == nil
       song.artist = self
       @songs << song
+      puts "song added #{@song}"
     end
   end
 
