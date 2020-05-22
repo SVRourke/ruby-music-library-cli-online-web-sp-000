@@ -15,4 +15,10 @@ class Genre
     @@all.clear
   end
 
+  def save
+    new_genre = Genre.new(name)
+    @@all << new_genre
+    new_genre
+  end
+
 end
