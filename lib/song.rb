@@ -35,6 +35,7 @@ class Song
   end
 
   def artist=(artist)
+    puts "adding artist"
     @artist = artist
     artist.add_song(self)
   end
