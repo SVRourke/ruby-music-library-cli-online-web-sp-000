@@ -7,9 +7,9 @@ class MusicImporter
   end
 
   def files
-    a = Dir.glob("#{@path}/*")
+    Dir.glob("#{@path}/*")
     # returns filenames
-    binding.pry
+    # binding.pry
   end
 
   def import
