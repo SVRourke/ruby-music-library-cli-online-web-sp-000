@@ -37,5 +37,6 @@ class Artist
     @songs.collect do |song|
       song.genre
     end
+  end
 
 end
