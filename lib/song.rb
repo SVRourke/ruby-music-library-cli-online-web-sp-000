@@ -1,11 +1,13 @@
 class Song
-  attr_accessor :name, :artist, :genre
+  attr_accessor :name
+  attr_reader :artist, :genre
   # attr_reader
   @@all = Array.new
 
   def initialize(name, artist=nil, genre=nil)
     @name = name
     if artist != nil
+      puts "has artist"
       self.artist = artist
     end
     if genre != nil
