@@ -7,7 +7,9 @@ class MusicImporter
   end
 
   def files
-    Dir.glob("#{@path}/*")
+    Dir.glob("#{@path}/*").map do |i|
+      i.gsub(@path, "")
+    end
     # returns filenames
     # binding.pry
   end
