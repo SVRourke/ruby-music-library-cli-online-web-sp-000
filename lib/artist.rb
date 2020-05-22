@@ -39,3 +39,12 @@ class Artist
     puts gs
   end
 end
+a = Artist.new("Artist A")
+b = Artist.new("Artist b")
+grunge = Genre.new
+Song.new("SONG 1", a, grunge)
+Song.new("SONG 2", b, rock)
+
+expect(artist.genres).to include(genre)
+expect(artist.genres).to include(other_genre)
+expect(artist.genres.size).to be(2)
