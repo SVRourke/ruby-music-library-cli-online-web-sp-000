@@ -47,7 +47,7 @@ grunge = Genre.new("Genre A")
 rock = Genre.new("Genre B")
 Song.new("SONG 1", a, grunge)
 Song.new("SONG 2", b, rock)
-puts a.genres
+puts a.songs
 
 # expect(artist.genres).to include(genre)
 # expect(artist.genres).to include(other_genre)
