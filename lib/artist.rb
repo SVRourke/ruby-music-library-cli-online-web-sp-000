@@ -38,5 +38,4 @@ class Artist
     gs = @songs.map {|song| song.genre}
     puts gs
   end
-
 end
