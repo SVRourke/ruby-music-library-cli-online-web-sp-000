@@ -39,7 +39,7 @@ class Artist
   def genres
     gs = @songs.map {|song| song.genre}
   end
-  
+
   def sub
     puts @songs
   end
