@@ -25,4 +25,8 @@ class Artist
     new_artist.save
     new_artist
   end
+
+  def add_song(song)
+    song.artist = self
+  end
 end
