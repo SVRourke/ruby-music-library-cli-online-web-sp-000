@@ -8,7 +8,7 @@ class Song
     @name = name
     if artist != nil
       puts "has artist"
-      self.artist = artist
+      self.artist= artist
     end
     if genre != nil
       self.genre = genre
