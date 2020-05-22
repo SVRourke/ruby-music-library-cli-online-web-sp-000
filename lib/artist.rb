@@ -44,4 +44,3 @@ class Artist
     puts @songs
   end
 end
-
