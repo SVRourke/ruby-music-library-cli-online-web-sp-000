@@ -16,9 +16,13 @@ class Genre
   end
 
   def save
-    new_genre = Genre.new(name)
-    @@all << new_genre
-    new_genre
+    @@all << self
+  end
+
+  def self.create(name)
+    ng = Genre.new(name)
+    ng.save
+    ng
   end
 
 end
