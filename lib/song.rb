@@ -1,5 +1,6 @@
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name
+  attr_reader :artist
   @@all = Array.new
 
   def initialize(name, artist=nil)
@@ -24,5 +25,9 @@ class Song
     new_song = Song.new(name)
     new_song.save
     new_song
+  end
+
+  def artist=(artist)
+    artist.add_song(self)
   end
 end
